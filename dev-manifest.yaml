@@ -13,7 +13,7 @@ spec:
         app: amanda-api
     spec:
       containers:
-        - name: sean-api
+        - name: amanda-api
         # This image is going to be the path to the image you create in a future step
           image: us-docker.pkg.dev/w09-project/amanda-api/api-tests
           ports:
